@@ -1,3 +1,21 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+  font-family: Allura;
+  src: url("/assets/font/Allura-Regular.ttf");
+}
+@font-face {
+  font-family: RoundArial;
+  src: url("/assets/font/arlrdbd.ttf");
+}
+
+body {
+  color: #fff;
+  padding: 0;
+  margin: 0;
+}
+* {
+  box-sizing: border-box; 
+}
