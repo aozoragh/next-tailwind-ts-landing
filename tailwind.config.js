@@ -9,6 +9,15 @@ module.exports = {
       },
       colors: {
         "black-blue" : "#0A0A24"
+      },
+      maxWidth: {
+        "90%": "90%"
+      },
+      width : {
+        avatar : "237px"
+      },
+      height : {
+        avatar : "230px"
       }
     },
     fontFamily: {
