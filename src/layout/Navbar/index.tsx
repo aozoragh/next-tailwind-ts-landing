@@ -2,7 +2,7 @@ import React from "react";
 
 const Navbar = () => {
   return (
-    <div className="w-screen h-5 flex justify-end items-center fixed text-white p-10 gap-6 font-Allura text-3xl">
+    <div className="w-screen h-5 flex justify-end items-center fixed text-white p-10 gap-6 font-Allura text-3xl backdrop-blur-sm z-50">
       <div><a href="">About</a></div>
       <div><a href="">Resume</a></div>
       <div><a href="">Portfolio</a></div>

@@ -7,6 +7,10 @@ import Navbar from 'layout/Navbar'
 // Import Views
 import Landing from "views/landing";
 import About from "views/about";
+import Resume from "views/resume"
+import Portfolio from 'views/portfolio';
+import Cando from 'views/cando';
+import Contact from 'views/contact';
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -23,6 +27,10 @@ export default function Home() {
         <Navbar></Navbar>
         <Landing></Landing>
         <About></About>
+        <Resume></Resume>
+        <Portfolio></Portfolio>
+        <Cando></Cando>
+        <Contact></Contact>
       </div>
     </>
   )
